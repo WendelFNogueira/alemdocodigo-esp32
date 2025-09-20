@@ -1,3 +1,8 @@
+# Exemplo 4: Sensor Touch com LED
+# Este código utiliza um sensor touch (GPIO4) para detectar toques.
+# Quando um toque é detectado (valor abaixo do limite), um LED (GPIO2) é aceso.
+# Caso contrário, o LED permanece apagado.
+
 from machine import Pin, TouchPad
 import time
 
